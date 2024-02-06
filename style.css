@@ -65,3 +65,15 @@ body {
 	font-family: newsGothicBold;
 }
 
+.lore {
+	padding: 10px;
+	display: inline-block;
+	width:	48%;
+	height: 100%;
+	background-color: black;
+	white-space: normal;
+	vertical-align: top;
+	text-align: left;
+	font-family: newsGothicBold;
+}
+
