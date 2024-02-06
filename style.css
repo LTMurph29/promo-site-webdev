@@ -1,0 +1,67 @@
+@font-face {
+  font-family: newsGothicBold;
+  src: url(newsGothicBold.otf);
+}
+
+@font-face {
+  font-family: starJedi;
+  src: url(Starjedi.ttf);
+}
+
+body {
+	background-color: black;
+	color: #fff;
+}
+
+.head {
+	font-family: starJedi;
+	text-align: center;
+	color: yellow;
+	font-size: 80px;
+	margin-block-start: 0em;
+	letter-spacing: 0.5rem;
+}
+
+.section {
+	font-family: starJedi;
+	text-align: center;
+	color: yellow;
+	font-size: 30px;
+	letter-spacing: 0.2rem;
+}
+
+.container {
+	overflow: auto;
+	padding: 10px;
+	background-color: yellow;
+	white-space: nowrap;
+	display: block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.media {
+	padding: 10px;
+	width: 240px;
+	height: 500px;
+	display: inline-block;
+	background-color: black;
+	white-space: normal;
+	font-family: newsGothicBold;
+	vertical-align: top;
+	text-align: left;
+#	letter-spacing: 0.1rem;
+}
+
+.history {
+	padding: 10px;
+	display: inline-block;
+	width:	31.95%;
+	height: 100%;
+	background-color: black;
+	white-space: normal;
+	vertical-align: top;
+	text-align: left;
+	font-family: newsGothicBold;
+}
+
